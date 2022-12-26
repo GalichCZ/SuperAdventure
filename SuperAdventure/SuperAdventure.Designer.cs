@@ -128,6 +128,7 @@ namespace SuperAdventure
             this.Controls.Add(this.label1);
             this.Name = "SuperAdventure";
             this.Text = "Super Adventure";
+            this.Load += new System.EventHandler(this.SuperAdventure_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
